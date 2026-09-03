@@ -4,7 +4,7 @@ import pandas as pd
 
 model=pickle.load(open('iplmodel.pkl','rb'))
 
-df=pd.read_csv(r"D:\all sai\innomatics\ML\ipl\STREAMLIT IPL\TataIplcleaned.csv")
+df=pd.read_csv(r"TataIplcleaned.csv")
 
 st.title('IPL Win Predictor')
 st.text('Predicting IPL match winning in probability in eal time')
